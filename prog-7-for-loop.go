@@ -8,4 +8,8 @@ func main() {
 		fmt.Println(i)
 		i = i + 1
 	}
+	//Another Method
+	for j := 11; j <= 20; j++ {
+		fmt.Println(j * j)
+	}
 }
