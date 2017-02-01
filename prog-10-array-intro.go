@@ -15,5 +15,11 @@ func main() {
 		total += float64(x[i])
 	}
 
+	multi := 1
+	for _, value := range x {
+		multi *= value
+	}
+
 	fmt.Println("Average = ", total/float64(len(x)))
+	fmt.Println("Continous Multiplied Value = ", multi)
 }
