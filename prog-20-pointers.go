@@ -8,6 +8,9 @@ func zero(xPtr *int) {
 
 func main() {
 	x := 7
+	y := new(int)
 	zero(&x)
+	zero(y)
 	fmt.Println(x)
+	fmt.Println(*y)
 }
